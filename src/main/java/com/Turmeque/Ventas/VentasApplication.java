@@ -1,13 +1,13 @@
-package com.Turmeque.VentasOnline;
+package com.Turmeque.Ventas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VentasOnlineApplication {
+public class VentasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VentasOnlineApplication.class, args);
+		SpringApplication.run(VentasApplication.class, args);
 	}
 
 }

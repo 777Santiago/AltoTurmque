@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.Turmeque.VentasOnline.Entity;
+package com.Turmeque.Ventas.Entity;
 
 import java.util.Date;
 import lombok.AllArgsConstructor;
@@ -12,10 +8,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-/**
- *
- * @author johan
- */
 @Document(collection = "usuarios")
 @Data
 @NoArgsConstructor

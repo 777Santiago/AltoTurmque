@@ -1,20 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.Turmeque.VentasOnline.Repository;
+package com.Turmeque.Ventas.Repository;
 
-import com.Turmeque.VentasOnline.Entity.User;
-import com.Turmeque.VentasOnline.RepositoryCrud.IUserRepositoryCrud;
+import com.Turmeque.Ventas.Entity.User;
+import com.Turmeque.Ventas.Repository.Crud.IUserRepositoryCrud;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author johan
- */
 @Repository
 public class UserRepository {
     @Autowired
